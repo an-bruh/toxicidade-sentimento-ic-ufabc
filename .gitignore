@@ -1,0 +1,5 @@
+/dados/raw/*
+/dados/processed/*
+/scripts/__pycache__
+teste.py
+teste2.py
