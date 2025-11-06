@@ -6,8 +6,8 @@ from datetime import datetime
 print('Hora de inicio:')
 print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
-data_origin = 'dados/raw/data.csv'
-data_destiny = 'dados/processed/data_processed.csv'
+data_origin = 'data/raw/data.csv'
+data_destiny = 'data/processed/data_processed.csv'
 
 dictio = {'TOXICITY': {}, 'SEVERE_TOXICITY': {}, 'IDENTITY_ATTACK': {}, 'INSULT': {}, 'PROFANITY': {}, 'THREAT': {}}
 
